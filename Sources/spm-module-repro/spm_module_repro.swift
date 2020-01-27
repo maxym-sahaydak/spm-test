@@ -1,9 +1,9 @@
 import ObjCFoo
 import ObjCBar
 
-struct spm_module_repro {
+public struct spm_module_repro {
     
-  func hello() {
+  public func hello() {
     // Use the class from ObjCFoo.
     let foo = RWFoo()
     let a = RWFoo()
@@ -13,6 +13,8 @@ struct spm_module_repro {
     let bar = RWBar()
     print("Number of popsicles: \(bar.numberOfPopsicles())")
   }
+
+
 
     
 }
