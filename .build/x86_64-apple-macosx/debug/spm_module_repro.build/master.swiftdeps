@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "ea26b413c5612f914da13c52590705a7"
+build_time: [1580115786, 920793000]
+inputs:
+  "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/spm-module-repro/spm_module_repro.swift": [1580088952, 789763882]

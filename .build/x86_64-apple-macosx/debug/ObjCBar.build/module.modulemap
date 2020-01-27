@@ -1,0 +1,4 @@
+module ObjCBar {
+    umbrella "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCBar/include"
+    export *
+}

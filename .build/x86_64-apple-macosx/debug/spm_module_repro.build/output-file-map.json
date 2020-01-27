@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/master.swiftdeps"
+  },
+  "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/spm-module-repro/spm_module_repro.swift": {
+    "dependencies": "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/spm_module_repro.d",
+    "object": "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/spm_module_repro.swift.o",
+    "swiftmodule": "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/spm_module_repro~partial.swiftmodule",
+    "swift-dependencies": "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/spm_module_repro.swiftdeps"
+  }
+}

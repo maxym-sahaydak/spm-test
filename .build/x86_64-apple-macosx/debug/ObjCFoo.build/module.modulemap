@@ -1,0 +1,4 @@
+module ObjCFoo {
+    umbrella "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCFoo/include"
+    export *
+}

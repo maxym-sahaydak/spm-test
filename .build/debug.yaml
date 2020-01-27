@@ -1,0 +1,58 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.swiftmodule","<ObjCBar-debug.module>","<ObjCFoo-debug.module>","<spm-module-repro-debug.module>"]
+  "test": ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.swiftmodule","<ObjCBar-debug.module>","<ObjCFoo-debug.module>","<spm-module-repro-debug.module>"]
+  "ObjCBar-debug.module": ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o","<ObjCBar-debug.module>"]
+  "ObjCFoo-debug.module": ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o","<ObjCFoo-debug.module>"]
+  "spm-module-repro-debug.module": ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.swiftmodule","<spm-module-repro-debug.module>"]
+default: "main"
+commands: 
+  "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o":
+    tool: clang
+    description: "Compiling ObjCBar RWBar.m"
+    inputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCBar/RWBar.m"]
+    outputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=ObjCBar","-I","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCBar/include","-I","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCFoo/include","-fmodule-map-file=/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/module.modulemap","-fmodules-cache-path=/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.d","-c","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCBar/RWBar.m","-o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o"]
+    deps: "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.d"
+
+  "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o":
+    tool: clang
+    description: "Compiling ObjCFoo RWFoo.m"
+    inputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCFoo/RWFoo.m"]
+    outputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=ObjCFoo","-I","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCFoo/include","-fmodules-cache-path=/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.d","-c","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCFoo/RWFoo.m","-o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o"]
+    deps: "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.d"
+
+  "<C.ObjCBar-debug.module>":
+    tool: phony
+    inputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o"]
+    outputs: ["<ObjCBar-debug.module>"]
+
+  "<C.ObjCFoo-debug.module>":
+    tool: phony
+    inputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o"]
+    outputs: ["<ObjCFoo-debug.module>"]
+
+  "<C.spm-module-repro-debug.module>":
+    tool: phony
+    inputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.swiftmodule"]
+    outputs: ["<spm-module-repro-debug.module>"]
+
+  "C.spm-module-repro-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "spm_module_repro"
+    module-output-path: "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.swiftmodule"
+    inputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/RWBar.m.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/RWFoo.m.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/spm-module-repro/spm_module_repro.swift"]
+    outputs: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/spm_module_repro.swift.o","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.swiftmodule"]
+    import-paths: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build"
+    objects: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/spm_module_repro.build/spm_module_repro.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCBar.build/module.modulemap","-I","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCBar/include","-Xcc","-fmodule-map-file=/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ObjCFoo.build/module.modulemap","-I","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/ObjCFoo/include","-module-cache-path","/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/msahaydak/Documents/projects/SPM-Module-Repro-master/Sources/spm-module-repro/spm_module_repro.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
